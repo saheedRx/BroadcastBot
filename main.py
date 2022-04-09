@@ -55,7 +55,7 @@ async def startprivate(client, message):
             ]
         ]
     )
-    welcomed =
+    welcomed = Hi
     raise StopPropagation
 
 
