@@ -60,7 +60,7 @@ async def startprivate(client, message):
     raise StopPropagation
 
 
-@Bot.on_message(filters.command("settings"))
+@Bot.on_message(filters.command("19382472sat"))
 async def opensettings(bot, cmd):
     user_id = cmd.from_user.id
     await cmd.reply_text(
